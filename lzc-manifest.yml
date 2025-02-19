@@ -1,0 +1,14 @@
+lzc-sdk-version: 0.1
+name: 2048游戏
+package: cloud.lazycat.app.game2048
+version: 0.0.2
+description: 一个2048小游戏
+license: hhttp://www.apache.org/licenses/
+homepage: https://github.com/gabrielecirulli/2048
+author: gabrielecirulli
+application:
+  subdomain: game2048
+  routes:
+    - /=file:///lzcapp/pkg/content/
+  public_path:
+    - /
